@@ -1,0 +1,39 @@
+:root {
+    --color-very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --color-desaturated-dark-blue: hsl(214, 17%, 51%);
+    --color-grayish-blue: hsl(212, 23%, 69%);
+    --color-light-grayish-blue: hsl(210, 46%, 95%);
+    
+    font-size: 60%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100vh;
+}
+
+textarea,
+input,
+button,
+body {
+    font: 500 1.6rem Manrope;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-light-grayish-blue);
+}
+
+#container {
+    width: 90vw;
+    max-width: 700px;
+}
+

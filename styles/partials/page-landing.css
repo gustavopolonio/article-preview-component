@@ -1,0 +1,232 @@
+.hero-image {
+    width: 100%;
+    height: 38rem;
+    border-radius: 1.4rem 1.4rem 0 0;
+}
+
+.content-container {
+    padding: 2.4rem 2.2rem 2.2rem;
+    background: white;
+    margin-top: -7rem;
+    border-radius: 0 0 1.4rem 1.4rem;
+    position: relative;
+}
+
+.content-container h1 {
+    font: 700 2.2rem Manrope;
+    margin-bottom: 0.8rem;
+    color: var(--color-very-dark-grayish-blue);
+    line-height: 3rem;
+}
+
+.content-container p {
+    font: 500 1.6rem Manrope;
+    margin-bottom: 1.8rem;
+    color: var(--color-desaturated-dark-blue);
+    line-height: 2.6rem;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.avatar-info {
+    display: flex;
+    align-items: center;
+}
+
+.avatar-info img {
+    height: 5.4rem;
+    border-radius: 50%;
+    margin-right: 1.8rem;
+}
+
+.avatar-info h2 {
+    color: var(--color-very-dark-grayish-blue);
+    font: 700 1.4rem Manrope;
+    line-height: 2rem;
+}
+
+.avatar-info span {
+    color: var(--color-desaturated-dark-blue);
+    font-size: 1.2rem;
+}
+
+
+.share-icons {
+    opacity: 0;
+    transition: 0.2s;
+    visibility: hidden;
+
+    border-bottom-left-radius: 1.4rem;
+    border-bottom-right-radius: 1.4rem;
+
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    height: 8.6rem;
+    
+    padding-left: 3.4rem;
+    display: flex;
+    align-items: center;
+
+    background: var(--color-very-dark-grayish-blue);
+}
+
+.share-icons.open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.share-icons img {
+    width: 4.4rem;
+    height: 4.4rem;
+    margin-right: 1.8rem;
+}
+
+.share-icons p {
+    display: inline-block;
+    margin-right: 2.6rem;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font: 700 2.4rem Manrope;
+    color: var(--color-desaturated-dark-blue);
+    margin-bottom: 0;
+}
+
+
+#share-button {
+    width: 4rem;
+    height: 4rem;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s;
+    z-index: 0;
+}
+
+#share-button:focus {
+    outline: none;
+}
+
+#share-button:hover {
+    opacity: 0.8;
+    box-shadow: 2px 2px var(--color-grayish-blue);
+
+}
+
+
+@media(min-width: 700px) {
+    :root {
+        font-size: 64.5%;
+    }
+
+    .hero-image {
+        height: 43rem;
+    }
+
+}
+
+
+@media(min-width: 1100px) {
+    #container {
+        max-width: 1100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-image {
+        width: 360px;
+        height: 288px;
+
+        border-radius: 1.4rem 0 0 1.4rem;
+    }   
+
+    .content-container {
+        height: 288px;
+        width:100%;
+        border-radius: 0 1.4rem 1.4rem 0;
+        margin-top: 0;
+
+        padding: 3.6rem 3.6rem;
+        
+    }
+
+    .content-container h1 {
+        font-size: 2.4rem;
+        line-height: 2.6rem;
+        margin-bottom: 1.6rem;
+    }
+
+    .content-container p {
+        font-size: 2rem;
+        line-height: 2.3rem;
+        margin-bottom: 2.4rem;
+
+    }
+
+    .avatar-info img {
+        height: 6.6rem;
+    }
+
+    .avatar-infos h2 {
+        font-size: 2rem;
+        line-height: 2.8rem;
+    }
+
+    .avatar-infos span {
+        font-size: 1.6rem;
+    }
+
+    #share-button {
+        width: 4.4rem;
+        height: 4.4rem;
+    }
+
+    .share-icons {
+        width: 28rem;
+        height: 5rem;
+        border-radius: 0;
+        position: absolute;
+        right: -8.3rem;
+        bottom: 10.4rem;
+        left: auto;
+        border-radius: 0.8rem;
+        justify-content: center;
+
+        margin: 0;
+        padding: 0 2.4rem;
+    }
+
+    .share-icons::after {      
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -17px;
+        width: 0;
+        height: 0;
+        border-top: 17px solid var(--color-very-dark-grayish-blue);
+        border-left: 17px solid transparent;
+        border-right: 17px solid transparent;
+
+    }
+
+
+    .share-icons p {
+        font-size: 1.4rem;
+        margin-right: 1rem;
+        margin-bottom: 0;
+    }
+
+    .share-icons img {
+        height: 2rem;
+        margin-right: 0rem;
+
+    }
+
+}
