@@ -4,7 +4,7 @@
    <img src="https://github.com/gustavopolonio/article-preview-component/blob/master/.github/mobile.png" width="480"/>
 </p>
 <p align="center">
-   <img src="https://github.com/gustavopolonio/article-preview-component/blob/master/.github/web.gif" width="1200"/>
+   <img src="https://github.com/gustavopolonio/article-preview-component/blob/master/.github/web.gif" width="760"/>
 </p>
 
 # :pushpin: Table of Contents
