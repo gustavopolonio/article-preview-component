@@ -54,7 +54,6 @@
     font-size: 1.2rem;
 }
 
-
 .share-icons {
     opacity: 0;
     transition: 0.2s;
@@ -74,6 +73,8 @@
     align-items: center;
 
     background: var(--color-very-dark-grayish-blue);
+
+    transition: 0.3s;
 }
 
 .share-icons.open {
@@ -104,8 +105,8 @@
     border: none;
     border-radius: 50%;
     cursor: pointer;
-    transition: 0.2s;
     z-index: 0;
+    transition: 0.2s;
 }
 
 #share-button:focus {
@@ -115,7 +116,6 @@
 #share-button:hover {
     opacity: 0.8;
     box-shadow: 2px 2px var(--color-grayish-blue);
-
 }
 
 
@@ -125,7 +125,7 @@
     }
 
     .hero-image {
-        height: 43rem;
+        height: 40rem;
     }
 
 }
@@ -188,18 +188,18 @@
     }
 
     .share-icons {
-        width: 28rem;
+        width: 24rem;
         height: 5rem;
         border-radius: 0;
         position: absolute;
-        right: -8.3rem;
+        right: -6.3rem;
         bottom: 10.4rem;
         left: auto;
         border-radius: 0.8rem;
         justify-content: center;
 
         margin: 0;
-        padding: 0 2.4rem;
+        padding: 0;
     }
 
     .share-icons::after {      
@@ -213,9 +213,7 @@
         border-top: 17px solid var(--color-very-dark-grayish-blue);
         border-left: 17px solid transparent;
         border-right: 17px solid transparent;
-
     }
-
 
     .share-icons p {
         font-size: 1.4rem;
@@ -225,8 +223,7 @@
 
     .share-icons img {
         height: 2rem;
-        margin-right: 0rem;
-
+        margin-right: -1rem;  
     }
 
 }
