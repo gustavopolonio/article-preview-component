@@ -1,7 +1,11 @@
-Article Preview Component
+# Article Preview Component
 
-
-## Screenshots
+<p align="center">
+   <img src="https://github.com/gustavopolonio/article-preview-component/blob/master/.github/mobile.png" width="480"/>
+</p>
+<p align="center">
+   <img src="https://github.com/gustavopolonio/article-preview-component/blob/master/.github/web.gif" width="740"/>
+</p>
 
 # :pushpin: Table of Contents
 
