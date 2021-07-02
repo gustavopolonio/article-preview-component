@@ -37,13 +37,13 @@ Before starting, you need to have installed in your machine the [Git](https://gi
 To clone this project via HTTPS, run the command:
 
 ```
-git clone https://github.com/gustavopolonio/slider-master.git
+git clone https://github.com/gustavopolonio/article-preview-component.git
 ```
 
 SSH URLs provide access to a Git repository via SSH, a secure protocol. If you have a SSH key registered in your Github account, clone this project using the command:
 
 ``` 
-git clone git@github.com:gustavopolonio/slider-master.git
+git clone git@github.com:gustavopolonio/article-preview-component.git
 ```
 </br>
 
